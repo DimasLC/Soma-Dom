@@ -1,0 +1,50 @@
+body {
+    background-image: url(imgs/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.box {
+    background-color: dimgray;
+    box-shadow: 8px 8px 8px 8px black;
+    width: 35%;
+    border: 5px 5px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculo {
+    text-align: center;
+}
+
+.resposta {
+    text-align: center;
+}
+
+.button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px 5px 0;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    color: #000000;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 5px 2px 5px 2px black;
+  }
+  
+  .button:active {
+      transform: scale(0.98);
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  }
